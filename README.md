@@ -106,7 +106,6 @@ export default App;
   transform: scale(1.03);
 }
 
-/* Navigation buttons */
 .buttons {
   display: flex;
   justify-content: center;
