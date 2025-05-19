@@ -21,6 +21,7 @@ Next Image: When the "Next" button is clicked, increment currentIndex.
 If currentIndex is at the end of the image list (last image), loop back to the first image using modulo:
 currentIndex = (currentIndex + 1) % images.length;
 
+
 Previous Image: When the "Previous" button is clicked, decrement currentIndex.
 
 If currentIndex is at the beginning (first image), loop back to the last image:
@@ -150,7 +151,8 @@ export default App;
 }
 ```
 ## OUTPUT
-
+![WhatsApp Image 2025-05-19 at 15 38 18_e7924ad4](https://github.com/user-attachments/assets/b1970bd4-9dd7-47c0-b311-9382d513be84)
+![WhatsApp Image 2025-05-19 at 15 37 06_c76bcf5f](https://github.com/user-attachments/assets/b22ed87e-151a-4d32-a390-d026901fb903)
 
 ## RESULT
 The program for creating Image Carousel using React is executed successfully.
