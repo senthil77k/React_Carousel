@@ -71,6 +71,11 @@ function App() {
         <button onClick={showPrevious}>Previous</button>
         <button onClick={showNext}>Next</button>
       </div>
+
+      {/* Footer */}
+      <div className="footer">
+        &copy; Senthil Kumaran  ||  2122232220103
+       </div>
     </div>
   );
 }
@@ -79,14 +84,16 @@ export default App;
 ```
 ## css
 ```
+
 .app {
   text-align: center;
   padding: 20px;
   min-height: 100vh;
-  background: linear-gradient(to right, #1e3c72, #2a5298); /* Updated gradient */
+  background: linear-gradient(to right, #1e3c72, #2a5298);
   color: #fff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .carousel {
   display: flex;
   justify-content: center;
@@ -94,6 +101,8 @@ export default App;
   height: 400px;
   margin-bottom: 20px;
 }
+
+
 .carousel-image {
   width: 600px;
   height: 400px;
@@ -105,6 +114,7 @@ export default App;
 .carousel-image:hover {
   transform: scale(1.03);
 }
+
 
 .buttons {
   display: flex;
@@ -127,11 +137,20 @@ export default App;
 .buttons button:hover {
   background-color: #e07b24;
 }
+
+
+.footer {
+  margin-top: 40px;
+  padding: 20px 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #ffffffcc;
+  font-size: 14px;
+  text-align: center;
+  border-top: 1px solid #ffffff33;
+}
 ```
 ## OUTPUT
 
-![WhatsApp Image 2025-05-17 at 14 09 05_adef862f](https://github.com/user-attachments/assets/97ebe614-4551-4536-9e64-b35c13bd54dc)
-![WhatsApp Image 2025-05-17 at 14 09 05_a7e2094b](https://github.com/user-attachments/assets/048cc4fa-8511-4fdc-8c5b-d6b88c2296b0)
 
 ## RESULT
 The program for creating Image Carousel using React is executed successfully.
